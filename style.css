@@ -144,7 +144,7 @@ li :hover {
 
 }
 
-body {
+.body {
   background: no-repeat;
   background-image: url(./imagenes/fondoopta.jpg);
   height: 100vh;
