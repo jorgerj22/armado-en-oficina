@@ -98,6 +98,9 @@ li :hover {
 .menu-icon, #check {
   display: none;
 }
+.accordion {
+  border: solid;
+}
 
 @media (max-width:768px){
   .checkbtn{
