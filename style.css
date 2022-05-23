@@ -8,7 +8,7 @@
 body {
   background: no-repeat;
   padding: 10px 20px 10px;
-  background-image: url(./imagenes/Monument-Valley-Arizona-USA-storm-cloudy-sky_1920x1080.jpg);
+  background-image: url(./imagenes/pexels-harrison-fitts-9503474.jpg);
 }
 
 .header {
@@ -68,8 +68,9 @@ li :hover {
 }
 
 .footer {
-  background-color: rgb(238, 231, 231);
-  background: black;
+  flex-direction: row;
+  background-color: white;
+
 }
 
 .img_blo {
@@ -107,26 +108,33 @@ li :hover {
     display: block;
   
 }
+.carousel-item {
+  border: solid;
+  position: fixed;
+
+}
+
 .menu-icon {
   display: block;
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 60px;
+  right: 60px;
   cursor: pointer;
 }
 .nav-menu ul {
   display: grid;
   position: relative;
   border-radius: 2rem 2rem 2rem 2rem;
-  top: 0px;
+  top: 10px;
   left: -130%;
-  background: rgb(143, 143, 143);
+  background: rgb(148, 143, 143);
   width: 100%;
-  height: 126vh;
+  height: 130vh;
   right: 0;
+ 
 }
 .nav-menu ul .nav__link{
-  
+
   padding: 2rem;
   display: flex;
   justify-content: center;
