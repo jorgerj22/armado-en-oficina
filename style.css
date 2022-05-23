@@ -115,8 +115,8 @@ li :hover {
   display: grid;
   position: relative;
   border-radius: 2rem 2rem 2rem 2rem;
-  top: 30px;
-  left: -100%;
+  top: 0px;
+  left: -120%;
   background: #222;
   width: 100%;
   height: 126vh;
@@ -124,10 +124,10 @@ li :hover {
 }
 .nav-menu ul .nav__link{
   
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
-  margin: 19px;
+  margin: 0px;
 }
 #check:checked ~ ul {
   left: 0;
