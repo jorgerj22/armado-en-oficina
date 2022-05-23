@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: no-repeat;
+  padding: 10px 20px 10px;
+  background-image: url(./imagenes/Monument-Valley-Arizona-USA-storm-cloudy-sky_1920x1080.jpg);
+}
+
+.header {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(13, 14, 14);
+  display: grid;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  border: solid;
+  list-style: none;
+  border-radius: 2rem;
+  padding: 0.6rem;
+  margin: 0.5rem;
+}
+li :hover {
+  background: rgb(229, 229, 238);
+  border-radius: 5rem;
+}
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.img__fondo {
+  animation: from-right 6s ease;
+  width: 230px;
+  height: 170px;
+  border-radius: 30rem 30rem 30rem 30rem;
+  margin: 1px;
+  padding: 2px;
+}
+
+.carousel-item {
+  border: solid;
+}
+
+.footer {
+  background-color: rgb(238, 231, 231);
+  background: black;
+}
+
+.img_blo {
+  justify-content: center;
+  right: 10;
+  width: 50px;
+  height: 50px;
+  
+}
+.barraflotante {
+  display: inline-block;
+  padding: 8px;
+  background-color: white;
+  border: solid;
+  border-radius: 50rem 50rem 50rem 50rem;
+  width:200px; 
+  height: 200px;
+}
+
+.menu-icon img{
+   width: 30px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.menu-icon, #check {
+  display: none;
+}
+
+@media (max-width:768px){
+  .checkbtn{
+    display: block;
+  
+}
+.menu-icon {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.nav-menu ul {
+  display: grid;
+  position: relative;
+  border-radius: 2rem 2rem 2rem 2rem;
+  top: 30px;
+  left: -100%;
+  background: #222;
+  width: 100%;
+  height: 126vh;
+  right: 0;
+}
+.nav-menu ul .nav__link{
+  
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 19px;
+}
+#check:checked ~ ul {
+  left: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
