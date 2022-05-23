@@ -7,8 +7,9 @@
 
 body {
   background: no-repeat;
-  padding: 10px 20px 10px;
-  background-image: url(./imagenes/pexels-harrison-fitts-9503474.jpg);
+  background-image: url(./imagenes/fondodepagina.jpg);
+  height: 190vh;
+  background-size: cover;
 }
 
 .header {
