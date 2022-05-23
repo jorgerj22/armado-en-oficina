@@ -7,8 +7,8 @@
 
 body {
   background: no-repeat;
-  background-image: url(./imagenes/fondodepagina.jpg);
-  height: 190vh;
+  background-image: url(./imagenes/fondoopta.jpg);
+  height: 100vh;
   background-size: cover;
 }
 
@@ -102,6 +102,32 @@ li :hover {
 }
 .accordion {
   border: solid;
+}
+
+.video-responsive {
+  overflow:hidden;
+  padding-bottom:400px; 
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:95%;
+  width:95%;
+  position:absolute;
+}
+
+
+.iframe{
+  display: flex;
+  border: solid;
+  border-radius: 0.9rem 0.9rem 0.9rem 0.9rem ;
+  overflow: hidden;
+  
+}
+.textq {
+  color: #0f0101;
 }
 
 @media (max-width:768px){
