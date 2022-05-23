@@ -9,8 +9,11 @@ body {
   background: no-repeat;
   background-image: url(./imagenes/fondoopta.jpg);
   height: 100vh;
+  width: 100vw;
   background-size: cover;
-}
+ background-attachment: fixed;
+} 
+
 
 .header {
   display: inline-block;
