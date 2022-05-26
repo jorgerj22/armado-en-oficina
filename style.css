@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Times New Roman', Times, serif ,sans-serif;
   box-sizing: border-box;
 }
 
@@ -12,8 +12,18 @@ body {
   width: 100vw;
   background-size: cover;
  background-attachment: fixed;
+ font-family: Verdana, sans-serif;
 } 
 
+.titulohome { 
+  display: inline-block;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.h1p {
+  font-weight: 1000;
+}
 
 .header {
   display: inline-block;
@@ -176,8 +186,6 @@ textarea{
 #boton:hover {
   cursor: pointer;
 }
-
-
 
 
 @media (max-width:768px){
