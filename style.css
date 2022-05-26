@@ -88,20 +88,32 @@ li :hover {
 }
 
 .img_blo {
+  display: inline-block;
+  padding: 0px;
   justify-content: center;
-  right: 10;
+  right: 10px;
   width: 50px;
   height: 50px;
+  padding-left: 10px;
+  margin-left: 37px;
   
 }
 .barraflotante {
-  display: inline-block;
-  padding: 8px;
+  display: inline-grid;
+  margin-top: 20px;
+  margin-right: 110px;
+  margin-left: 20px;
+  padding: 26px;
   background-color: white;
   border: solid;
   border-radius: 50rem 50rem 50rem 50rem;
   width:200px; 
   height: 200px;
+}
+
+.flotante {
+  display: contents;
+  justify-content: space-between;
 }
 
 .menu-icon img{
