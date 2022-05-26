@@ -19,11 +19,10 @@
     padding-bottom: 25px;
   }
   .content-foo {
-    max-width: 230px;
-    min-width: 230px;
+    max-width: 250px;
+    min-width: 250px;
   }
-  .content-foo h4 {
-      font-size: 20px;
+  .content-foo h4 { 
     color: #fff;
     border-bottom: 3px solid #f2c640;
     padding-bottom: 5px;
@@ -32,7 +31,7 @@
   .content-foo p {
     color: #ccc;
   }
-  .content-foo ul {
+  .content-foo .ulu {
     color: #ccc;
     list-style: none;
   }
@@ -47,13 +46,14 @@
   .content-foo a {
     display: block;
     color: #ccc;
-    font-size: 15px;
+    font-size: 16px;
     padding: 5px 0;
   }
   .content-foo a:hover {
     color: #f2c640;
   }
-  .copyrigth {
+  .copyrigth {    
+      font-size: 15px;
     background-color: #1f2b40;
     padding: 15px 0;
     display: flex;
@@ -61,20 +61,20 @@
     justify-content: space-between;
   }
   .copyrigth h2 {
-    font-size: 10px;
+    font-size: 20px;
     margin: 15px 0 15px 25px;
     color: #ccc;
   }
   .copyrigth .redes-sociales {
     display: flex !important;
     text-align: center;
-    font-size: 10px;
+    font-size: 25px;
     margin-right: 15px;
   }
   .copyrigth .redes-sociales .bubble {
     width: 50px;
     height: 50px;
-    border-radius: 20rem;
+    border-radius: 50px;
     background: #3f485b;
     margin: 10px;
     filter: drop-shadow(0 0 10px #000);

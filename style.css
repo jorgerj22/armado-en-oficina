@@ -59,7 +59,7 @@ li :hover {
 }
 
 .nav-toggle {
-  color: white;
+  color:0,0,0,rgba(0,0,0,0.4);
   background: none;
   border: none;
   font-size: 30px;
