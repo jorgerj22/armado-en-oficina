@@ -19,6 +19,16 @@ body {
   min-height: 100vh;
 }
 
+.textmark {
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 120px;
+}
+
+.subp{
+  margin-left: 100px;
+}
+
 .imgmark {
   margin-top: 20px;
   display: flex;
@@ -218,12 +228,13 @@ textarea {
 }
 
 #boton {
-  font-size: 20px;
-  background: #7c7d80;
-  color: #fff;
-  padding: 20px;
-  width: 600px;
+  padding-top: 10px;
+  height: 50px;
+  width: 300px;
+  color: #0f0101;
+  margin-left: 180px;
 }
+
 
 #boton:hover {
   cursor: pointer;
@@ -475,7 +486,7 @@ textarea {
   }
 }
 
-@media (max-width: 417px) {
+@media (max-width: 423px) {
   .pmark .h1cap .imgmark section #boton {
     display: block;
   }
