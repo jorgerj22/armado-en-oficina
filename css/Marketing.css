@@ -475,29 +475,35 @@ textarea {
   }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 417px) {
   .pmark .h1cap .imgmark section #boton {
     display: block;
   }
 
   .imgmark {
     display: none;
+    
   }
   section {
     background-image: url(../imagenes/pexels-michael-block-3225525.jpg);
     background: cover;
-    width: 760px;
+    width: 408px;
+    background-attachment: fixed;
   }
   .pmark {
     color: #0f0101;
   }
   #boton {
+    padding-top: 10px;
+    height: 50px;
+    width: 300px;
     color: #0f0101;
     margin-left: 40px;
   }
 
   .h1cap {
+    font-size: 40px;
     color: #0f0101;
-    margin-left: 130px;
+    margin-left: 15px;
   }
 }
