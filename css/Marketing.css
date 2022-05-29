@@ -495,6 +495,10 @@ textarea {
     display: none;
     
   }
+
+  .textmark{
+    display: none;
+  }
   section {
     background-image: url(../imagenes/pexels-michael-block-3225525.jpg);
     background: cover;

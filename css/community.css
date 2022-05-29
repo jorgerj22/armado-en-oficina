@@ -513,6 +513,10 @@
       color: #0f0101;
       margin-left: 40px;
     }
+
+    .textmark{
+      display: none;
+    }
   
     .h1cap {
       font-size: 40px;
